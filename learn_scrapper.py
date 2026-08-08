@@ -21,3 +21,4 @@ result, continuation_token = reviews(
 )
 print(result)
 
+#now this does the job, prints the top 3 newest review
