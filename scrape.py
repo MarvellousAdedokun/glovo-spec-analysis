@@ -37,3 +37,4 @@ if __name__ == "__main__":
     print(df["rating"].value_counts().sort_index())
     df.to_csv("glovo_reviews_raw.csv", index=False)
     print("Saved to glovo_reviews_raw.csv")
+
